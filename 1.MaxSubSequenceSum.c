@@ -1,7 +1,14 @@
+/*
+ * 最大子序列和4种算法
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char** argv)
+/**
+ * 主函数
+ * @return int
+ */
+int main(void)
 {
     int list[] = {-2, 3, 1, -4, -5, 8, -3, 6, 2, 3, 0, -7, 1, 9, 2, -3, -6, 1, 5, 7};
     int max, count;
